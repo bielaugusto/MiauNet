@@ -1,0 +1,108 @@
+/* CSS (Cascading Style Sheet) - Main Page Home*/
+
+form {
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    margin: 40px auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h1 {
+    font-size: 50px;
+    color: #4b4b4b;
+    margin-top: 0;
+}
+
+form fieldset {
+        /*border: 0;*/
+}
+
+form legend {
+    margin-bottom: 24px;
+}
+
+form legend h2 {
+    font-size: 24px;
+    color: #4b4b4b;
+    margin: 20;
+}
+
+form .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    color: #4b4b4b;
+    font-size: 24px;
+}
+
+form .field-group {
+    display: flex;
+}
+
+form input, form select {
+    background-color: #4b4b4b;
+    color: #fdfdfd;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+}
+
+form a, button {
+    color: #fdfdfd;
+    margin-top: 40px;
+}
+
+#home main a, button {
+    background-color: #d20000;
+    border-radius: 25px;
+    border: none;
+    width: 440px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#home main a:hover, button:hover{
+    background-color: #ff0000;
+}
+
+#home main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+#content-left h3 {
+    margin-left: 20px;
+}
+
+#catalogo {
+    max-width: 700px;
+    width: 100%;
+    height: auto
+}
+
+#home .icones {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px; 
+}

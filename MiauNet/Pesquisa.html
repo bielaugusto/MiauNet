@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <!--HTML (HiperText Markup Language)-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MiauNet</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/all.css">
+        <link rel="stylesheet" href="styles/cadastro.css">
+        
+        <link rel="shortcut icon" href="images/LogoMiauNet-Branco.png" type="image/x-icon">
+
+        <script src="codes/Pesquisa.js"></script>
+    
+    <body>
+        <div id="home">
+            <header>
+                <img id="logo" src="images/LogoMiauNet-Branco-Texto.png" alt="Logomarca">
+            </header>
+            <main>
+            <div id="content-left">
+                <form action="">
+                    <h1>Pesquisa de obras</h1>
+                    <fieldset>
+                        <legend>
+                            <h2>Pesquise uma obra</h2>
+                        </legend>
+                        <div class="field">
+                            <label for="pesquisa">Digite o nome da obra:</label>
+                            <input id="pesquisa" type="text" name="pesquisa">
+                        </div>
+                        <div class="field-group">
+                            <div class="field">
+                                <label for="tipo">Tipo:</label>
+                                <select id="tipo" name="tipo">
+                                    <option value="">Selecione o tipo da obra</option>
+                                    <option value="Filme">Filme</option>
+                                    <option value="Seriado">Seriado</option>
+                                </select> 
+                            </div>
+                            <div class="field">
+                                <label for="genero">Gênero:</label>
+                                <select id="genero" name="genero">
+                                    <option value="">Selecione o gênero da obra</option>
+                                    <option value="Ação">Ação</option>
+                                    <option value="Animação">Animação</option>
+                                    <option value="Aventura">Aventura</option>
+                                    <option value="Comedia">Comédia</option>
+                                    <option value="Crime">Crime</option>
+                                    <option value="Documentário">Documentário</option>
+                                    <option value="Drama">Drama</option>
+                                    <option value="Familia">Família</option>
+                                    <option value="Ficcao Cientifica">Ficção Científica</option>
+                                    <option value="Guerra">Guerra</option>
+                                    <option value="Misterio">Mistério</option>
+                                    <option value="Musica">Música</option>
+                                    <option value="Romance">Romance</option>
+                                    <option value="Suspense">Suspense</option>
+                                    <option value="Terror">Terror</option>
+                                </select> 
+                            </div>
+                        </div>
+                    </fieldset>
+                    <br/>
+                    <button onclick="pesquisarObra();">
+                        <h3>Pesquisar</h3>
+                    </button>
+                </form>
+                <a href="index.html">
+                    <img class="icones" src="images/IconeEntrada.png" alt="Pesquisar">
+                    <h3>Voltar para Home</h3>
+                </a>
+            </div>
+            <div id="content-right">
+                <p>Esta área futuramente receberá uma atualização para carregar
+                    a foto da obra pesquisada
+                </p>
+            </div>
+            </main>
+        <footer>
+        </footer>
+    </body>
+</html>
