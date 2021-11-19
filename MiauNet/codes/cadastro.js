@@ -1,5 +1,3 @@
-//JSON: JavaScript Opject Notation
-
 listaObras = []
 
 function Teste() {
