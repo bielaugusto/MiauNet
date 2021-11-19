@@ -1,9 +1,5 @@
 listaObras = []
 
-function Teste() {
-    alert("Está funcionando! =)");
-}
-
 function cadastrarObra() {
     const objetoTitulo = document.getElementById("titulo");
     const objetoTipo = document.getElementById("tipo");
